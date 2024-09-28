@@ -1,0 +1,46 @@
+{
+  "name": "@uniswap/permit2",
+  "description": "Low-overhead, next generation token approval/meta-tx system to make token approvals easier, more secure, and more consistent across applications",
+  "version": "1.0.0",
+  "bugs": "https://github.com/Uniswap/permit2/issues",
+  "keywords": [
+    "ethereum",
+    "permit2",
+    "uniswap"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Uniswap/permit2.git"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run ./script/deploy.ts --network"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-foundry": "^1.1.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@typechain/ethers-v5": "^4.0.0",
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "decimal.js": "^10.2.1",
+    "dotenv": "^16.3.1",
+    "ethereum-waffle": "^3.0.2",
+    "ethers": "^5.0.8",
+    "hardhat": "^2.2.0",
+    "hardhat-typechain": "^0.3.5",
+    "mocha": "^6.2.2",
+    "mocha-chai-jest-snapshot": "^1.1.0",
+    "prettier": "^2.0.5",
+    "prettier-plugin-solidity": "^1.0.0-alpha.59",
+    "solhint": "^3.2.1",
+    "solhint-plugin-prettier": "^0.0.5",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^8.5.4",
+    "typechain": "^4.0.0",
+    "typescript": "^3.7.3"
+  }
+}
